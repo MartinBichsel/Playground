@@ -326,6 +326,7 @@ var json_parse = (function () {
 // in an empty key. If there is not a reviver function, we simply return the
 // result.
 // added comment
+// added an other comment
 
         return typeof reviver === 'function' ? (function walk(holder, key) {
             var k, v, value = holder[key];
