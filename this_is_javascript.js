@@ -325,6 +325,7 @@ var json_parse = (function () {
 // transformation, starting with a temporary root object that holds the result
 // in an empty key. If there is not a reviver function, we simply return the
 // result.
+// added comment
 
         return typeof reviver === 'function' ? (function walk(holder, key) {
             var k, v, value = holder[key];
